@@ -1,0 +1,99 @@
+show collections
+db.logs.find()
+show dbs
+use test
+show collections
+db.logs.drop()
+show dbs
+use test
+show collections
+db.users.find()
+db.logs.find()
+it
+printjson( db.logs.find().toArray() )
+op.json > printjson( db.logs.find().toArray() )
+printjson( db.logs.find().toArray() )
+mongo | out.json
+use test
+db.logs.find()
+printjson( db.logs.find().toArray() )
+use test
+printjson( db.logs.find().toArray() )
+show dbs()
+show dbs
+use test
+show collections
+db.users.drop()
+db.users.logs()
+db.logs.drop()
+show dbs
+use test
+show collections
+db.logs.find()
+it
+show dbs
+mongo test << EOF > output.json
+use test
+mongo dbname << EOF > output.json
+db.collection.find().pretty()
+show dbs
+use test
+show collections
+db.logs.find().pretty()
+show dbs
+use test
+db.logs.find()
+db.logs.find({username: 1, SourceUrl=1, Action=1, Value=1})
+db.logs.find({username: 1, SourceUrl:1, Action:1, Value:1})
+db.logs.find()
+db.logs.find({username: 1, SourceUrl:1, Action:1, Value:1, _id:0})
+db.logs.find()
+db.logs.find(username:1)
+db.logs.find({username:1})
+db.logs.find().select('username');
+db.logs.find().select("username");
+db.logs.find()
+db.logs.find().username()
+db.logs.find()
+db.logs.find().pretty()
+db.logs.find().array()
+db.logs.find({username})
+db.logs.find({username:1})
+db.logs.find({username:1}).pretty()
+db.logs.find({"username":aaa})
+db.logs.find({"username":1})
+db.logs.find( { username: aaa})
+db.logs.find( { username: "aaa"})
+db.logs.find( { username: "aaa", SourceURL})
+db.logs.find( { username: "aaa", SourceURL: })
+db.logs.find( { username: "aaa", Action: "scroll"})
+db.logs.find( { username: "aaa"})
+db.logs.find( { username: "aaa"})
+db.logs.find( { username: "aaa"})
+db.logs.find( { username: "aaa", _id: 0})
+db.logs.find( { username: "aaa"}).pretty()
+db.logs.findOne()
+db.logs.find( { username: "aaa"}).pretty()
+db.logs.find( {username: "bbb"}).pretty()
+show dbs
+use test
+show collections
+drop users
+drop collection users
+db.users.drop()
+db.logs.drop()
+db.logs.find( { username: "aaa"}).pretty()
+db.logs.find( { username: "aaa"}).pretty()
+db.logs.find({username: "bbb"}).pretty()
+db.logs.find({username: "ccc"}).pretty()
+db.logs.find({Value: "Ask Question"})
+db.logs.find({Value: "Ask Question"}).pretty()
+db.logs.find({ },{ username: 1, Action: 1, Value:1, _id: 0 })
+db.logs.find({ },{ username: 1, Action: 1, Value:1, _id: 0 }).pretty()
+db.logs.find({Value: "Ask Question"},{ username: 1, Action: 1, Value:1, _id: 0 })
+db.logs.find({Value: "upvotes"},{ username: 1, Action: 1, Value:1, _id: 0 })
+db.logs.find({Value: "Upvotes"},{ username: 1, Action: 1, Value:1, _id: 0 })
+db.logs.find({Value: "Ask Question"},{ username: 1, Action: 1, Value:1, _id: 0 })
+db.logs.find({Value: "Ask Question"},{ username: 1, Action:1, Value:1, _id:0})
+showdb
+showDB()
